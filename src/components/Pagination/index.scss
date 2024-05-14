@@ -1,0 +1,15 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+
+  li:first-child {
+    margin-right: 1rem;
+  }
+
+  li:last-child {
+    margin-left: 1rem;
+  }
+}
