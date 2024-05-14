@@ -1,5 +1,27 @@
 # pokedex-vue
 
+## Folder Structure
+
+```
+pokedex-vue/
+|__ src/
+    |__ assets/
+    |__ components/
+    |__ views/
+    |__ router/
+    |__ stores/
+    |__ utils/
+    |__ hooks/
+    |__ main.ts
+    |__ App.vue
+    |__ main.ts
+__ public/
+__ README.md
+__ package.json
+__ tsconfig.json
+__ vite.config.ts
+```
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
