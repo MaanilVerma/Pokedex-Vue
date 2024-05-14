@@ -7,4 +7,6 @@ export interface UsePaginationProps {
   searchBarRef: Ref<HTMLDivElement | null>;
   page: number;
   setPage: (value: number) => void;
+  totalItems: number;
+  itemsPerPage: number;
 }

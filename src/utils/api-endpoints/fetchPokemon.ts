@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Pokemon } from "@/utils/models/pokemon.model";
+import type { Pokemon } from "@/utils/models/pokemon.model";
 
 export const fetchPokemon = async (pokemon: string) => {
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;
